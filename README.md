@@ -59,10 +59,10 @@ c. Dashboard design and slicers
 ```excel
 =INDEX(products!$A$1:$G$49,MATCH(orders!$D3,products!$A$1:$A$49,0),MATCH(orders!I$1,products!$A$1:$G$1,0))
 
- This formula is used to dynamically retrieve product-related information (such as coffee type, roast type, size, or price) from the Products sheet into the Orders sheet
+This formula is used to dynamically retrieve product-related information (such as coffee type, roast type, size, or price) from the Products sheet into the Orders sheet ```
 
 
-## Findings Summary
+## Findings
 
 a. The top 5 customers are (desc order) : Allis Wilmore, Brenn Dundredge, Terrin Farra, Nealson Cuttler, Don Flintiff
 
