@@ -53,17 +53,19 @@ b. Excel formulas and calculated fields
 
 c. Dashboard design and slicers
 
-## Notable formula
-
-
-```excel
-=INDEX(products!$A$1:$G$49,MATCH(orders!$D3,products!$A$1:$A$49,0),MATCH(orders!I$1,products!$A$1:$G$1,0))
-
-This formula is used to dynamically retrieve product-related information (such as coffee type, roast type, size, or price) from the Products sheet into the Orders sheet ```
-
-
 ## Findings
 
 a. The top 5 customers are (desc order) : Allis Wilmore, Brenn Dundredge, Terrin Farra, Nealson Cuttler, Don Flintiff
 
 b. Over the four-year period, the United States consistently contributed to sales across all coffee types. This trend may be influenced by factors such as population size, coffee culture, and consumption habits. Overall, all three countries show a stronger preference for dark roast coffee compared to other types. Based on these findings, expanding the business in the U.S. market would likely be the most lucrative option.
+
+## Notable formula
+
+```excel
+=INDEX(products!$A$1:$G$49,MATCH(orders!$D3,products!$A$1:$A$49,0),MATCH(orders!I$1,products!$A$1:$G$1,0)
+```
+
+This formula is used to dynamically retrieve product-related information (such as coffee type, roast type, size, or price) from the Products sheet into the Orders sheet
+
+
+
