@@ -55,7 +55,7 @@ c. Dashboard design and slicers
 
 ## Notable formula
 
-```md
+
 ```excel
 =INDEX(products!$A$1:$G$49,MATCH(orders!$D3,products!$A$1:$A$49,0),MATCH(orders!I$1,products!$A$1:$G$1,0))
 
